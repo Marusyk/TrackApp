@@ -45,7 +45,16 @@ namespace TrackApp
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int mainIcon = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int missing = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int @out = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int working = 2130837507;
 			
 			static Drawable()
 			{
@@ -63,6 +72,9 @@ namespace TrackApp
 			// aapt resource value: 0x7f050000
 			public const int btnClose = 2131034112;
 			
+			// aapt resource value: 0x7f050005
+			public const int imageView = 2131034117;
+			
 			// aapt resource value: 0x7f050003
 			public const int lblEnd = 2131034115;
 			
@@ -71,6 +83,9 @@ namespace TrackApp
 			
 			// aapt resource value: 0x7f050002
 			public const int lblStart = 2131034114;
+			
+			// aapt resource value: 0x7f050004
+			public const int lblStatus = 2131034116;
 			
 			static Id()
 			{
@@ -101,20 +116,14 @@ namespace TrackApp
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040004
-			public const int ApplicationName = 2130968580;
+			// aapt resource value: 0x7f040002
+			public const int ApplicationName = 2130968578;
 			
 			// aapt resource value: 0x7f040000
 			public const int btnClose = 2130968576;
 			
-			// aapt resource value: 0x7f040002
-			public const int lblEnd = 2130968578;
-			
-			// aapt resource value: 0x7f040003
-			public const int lblName = 2130968579;
-			
 			// aapt resource value: 0x7f040001
-			public const int lblStart = 2130968577;
+			public const int lblName = 2130968577;
 			
 			static String()
 			{

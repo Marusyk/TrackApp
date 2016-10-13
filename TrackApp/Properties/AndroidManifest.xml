@@ -2,5 +2,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="TrackApp.TrackApp" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="16" />
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application android:label="TrackApp" android:icon="@drawable/Icon"></application>
+	<application android:label="TrackApp" android:icon="@drawable/mainIcon"></application>
 </manifest>

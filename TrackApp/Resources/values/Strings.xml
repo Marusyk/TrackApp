@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="btnClose">Закрити</string>
-    <string name="lblStart">Прийшов в:</string>
-    <string name="lblEnd">Пішов в:</string>
     <string name="lblName">Марусик Р.</string>
     <string name="ApplicationName">TrackApp</string>
 </resources>

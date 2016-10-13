@@ -13,17 +13,32 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:id="@+id/lblName" />
     <TextView
-        android:text="@string/lblStart"
+        android:text=""
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/lblStart" />
     <TextView
-        android:text="@string/lblEnd"
+        android:text=""
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/lblEnd" />
+        android:id="@+id/lblEnd"
+        android:layout_marginRight="0.0dp" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:gravity="center"
+        android:id="@+id/lblStatus" />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/missing"
+        android:scaleType="fitCenter" />
 </LinearLayout>
