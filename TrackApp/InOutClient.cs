@@ -14,7 +14,7 @@ namespace TrackApp
 			string responseString = string.Empty;
 			using (var client = new HttpClient())
 			{
-				var response = client.GetAsync("http://inout.osdn.nl/index/ajax/format/json").Result;
+				var response = client.GetAsync("http://inout.sharpminds.com/index/ajax/format/json").Result;
 				if (response.IsSuccessStatusCode)
 				{
 					var responseContent = response.Content;
